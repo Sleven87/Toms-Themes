@@ -29,7 +29,7 @@ The GNOME backend is covered by automated tests using a fake `gsettings` (run on
 ## Install
 
 ```bash
-git clone <this repo's URL> toms-themes
+git clone https://github.com/Sleven87/Toms-Themes
 cd toms-themes
 ./install.sh
 ```
