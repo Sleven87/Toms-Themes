@@ -30,7 +30,7 @@ The GNOME backend is covered by automated tests using a fake `gsettings` (run on
 
 ```bash
 git clone https://github.com/Sleven87/Toms-Themes
-cd toms-themes
+cd Toms-Themes
 ./install.sh
 ```
 
@@ -118,9 +118,8 @@ Original machine: **CachyOS (Arch), KDE Plasma 6, Wayland**, Python 3.14, PyQt6 
 - The user is in Australia and wants dates as **dd/MM/yyyy**. The app itself shows no dates, but keep this in mind for any output you write.
 - It's fine to open a PR or edit the app for the user's other machines' quirks, but keep the KDE and GNOME behaviour covered by `tests/`.
 
-## Publishing (for the user)
+## Updating an existing install
 ```bash
-cd toms-themes
-git remote add origin git@github.com:<user>/toms-themes.git   # after creating an empty repo on github.com
-git push -u origin main
+cd Toms-Themes && git pull && ./install.sh
 ```
+`install.sh` stops the running tray copy and starts the new one.
