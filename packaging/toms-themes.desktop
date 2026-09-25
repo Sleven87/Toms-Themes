@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Tom's Themes
+GenericName=Wallpaper and Theme Picker
+Comment=Browse wallpapers and apply matching colour themes
+Exec=python3 @APP@
+Icon=toms-themes
+Terminal=false
+Categories=Settings;Qt;DesktopSettings;
+Keywords=wallpaper;theme;colour;color;background;
+StartupWMClass=toms-themes

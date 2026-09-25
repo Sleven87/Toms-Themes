@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Tom's Themes (tray)
+Comment=Keeps the Tom's Themes tray icon available after login
+Exec=python3 @APP@ --tray
+Icon=toms-themes
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-after=panel
